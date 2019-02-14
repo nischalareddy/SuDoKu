@@ -20,6 +20,7 @@ namespace SuDoKu
             MapTextBoxToBoardReferences();
         }
 
+        #region Board array initialization
         private void MapTextBoxToBoardReferences()
         {
             Board[0, 0] = tb_00;
@@ -104,6 +105,95 @@ namespace SuDoKu
             Board[6, 1] = tb_61;
             Board[6, 0] = tb_60;
         }
-        
+        #endregion
+
+        private void Text_Changed(object sender, EventArgs e)
+        {
+            TextBox CurrentTb = (TextBox)sender;
+            int x;
+            int y;
+            GetCordinates(CurrentTb, out x, out y);
+
+            if ( CheckRow(CurrentTb, x, y) || CheckColumn(CurrentTb,x, y))
+            {
+                CurrentTb.Text = "";
+                return;
+            }
+
+            if(CheckBlock(CurrentTb, x, y))
+            {
+                CurrentTb.Text = "";
+                return;
+            }
+
+            if (IsGameComplete())
+                MessageBox.Show("GameComplete!!");
+        }
+
+        private bool IsGameComplete()
+        {
+            for( int i = 0; i < 9; i++)
+            {
+                for(int j = 0; j < 9; j++)
+                {
+                    if (Board[i, j].Text == "")
+                        return false;
+                }
+            }
+            return true;
+        }
+
+        private bool CheckBlock(TextBox tb, int x, int y)
+        {
+            int bx = x / 3;         //block's x and y cordinate, gives you which block the current cordinates belong to
+            int by = y / 3;         
+
+            int ibx = bx * 3;       //starting position of that particular block
+            int iby = by * 3;
+
+            for( int i = ibx; i < ibx + 3; i ++)  //checking the number availability in that whole block
+            {
+                for( int j = iby; j < iby + 3; j++)
+                {
+                    if (i == x && j == y)
+                        continue;               //skips 1 iteration
+                    if (Board[i, j].Text == tb.Text)
+                        return true;
+                }
+            }
+            return false;
+        }
+
+        private bool CheckColumn(TextBox tb, int x, int y)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if (i == x)
+                    continue;
+                if ((Board[i, y].Text == tb.Text))
+                    return true;
+            }
+            return false;
+        }
+
+        private bool CheckRow(TextBox tb, int x, int y)
+        {
+            for (int j = 0; j < 9; j++)
+            {
+                if (j == y)
+                    continue;
+                if ((Board[x, j].Text == tb.Text))
+                    return true;
+            }
+            return false;
+        }
+
+        private void GetCordinates(TextBox tb, out int x, out int y)
+        {
+            String position = tb.Tag.ToString();
+            x = position[0]-'0';
+            y = position[1]-'0';
+
+        }
     }
 }

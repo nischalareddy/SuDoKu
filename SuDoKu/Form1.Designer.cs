@@ -118,8 +118,9 @@
             this.tb_00.Name = "tb_00";
             this.tb_00.Size = new System.Drawing.Size(39, 35);
             this.tb_00.TabIndex = 0;
-            this.tb_00.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_00.Tag = "00";
+            this.tb_00.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_00.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_01
             // 
@@ -128,8 +129,9 @@
             this.tb_01.Name = "tb_01";
             this.tb_01.Size = new System.Drawing.Size(39, 35);
             this.tb_01.TabIndex = 1;
-            this.tb_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_01.Tag = "01";
+            this.tb_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_01.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_02
             // 
@@ -138,8 +140,9 @@
             this.tb_02.Name = "tb_02";
             this.tb_02.Size = new System.Drawing.Size(39, 35);
             this.tb_02.TabIndex = 2;
-            this.tb_02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_02.Tag = "02";
+            this.tb_02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_02.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_12
             // 
@@ -148,8 +151,9 @@
             this.tb_12.Name = "tb_12";
             this.tb_12.Size = new System.Drawing.Size(39, 35);
             this.tb_12.TabIndex = 5;
-            this.tb_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_12.Tag = "12";
+            this.tb_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_12.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_11
             // 
@@ -158,8 +162,9 @@
             this.tb_11.Name = "tb_11";
             this.tb_11.Size = new System.Drawing.Size(39, 35);
             this.tb_11.TabIndex = 4;
-            this.tb_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_11.Tag = "11";
+            this.tb_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_11.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_10
             // 
@@ -168,8 +173,9 @@
             this.tb_10.Name = "tb_10";
             this.tb_10.Size = new System.Drawing.Size(39, 35);
             this.tb_10.TabIndex = 3;
-            this.tb_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_10.Tag = "10";
+            this.tb_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_10.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_22
             // 
@@ -178,8 +184,9 @@
             this.tb_22.Name = "tb_22";
             this.tb_22.Size = new System.Drawing.Size(39, 35);
             this.tb_22.TabIndex = 8;
-            this.tb_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_22.Tag = "22";
+            this.tb_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_22.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_21
             // 
@@ -188,8 +195,9 @@
             this.tb_21.Name = "tb_21";
             this.tb_21.Size = new System.Drawing.Size(39, 35);
             this.tb_21.TabIndex = 7;
-            this.tb_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_21.Tag = "21";
+            this.tb_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_21.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_20
             // 
@@ -198,8 +206,9 @@
             this.tb_20.Name = "tb_20";
             this.tb_20.Size = new System.Drawing.Size(39, 35);
             this.tb_20.TabIndex = 6;
-            this.tb_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_20.Tag = "20";
+            this.tb_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_20.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_25
             // 
@@ -208,8 +217,9 @@
             this.tb_25.Name = "tb_25";
             this.tb_25.Size = new System.Drawing.Size(39, 35);
             this.tb_25.TabIndex = 17;
-            this.tb_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_25.Tag = "25";
+            this.tb_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_25.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_24
             // 
@@ -218,8 +228,9 @@
             this.tb_24.Name = "tb_24";
             this.tb_24.Size = new System.Drawing.Size(39, 35);
             this.tb_24.TabIndex = 16;
-            this.tb_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_24.Tag = "24";
+            this.tb_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_24.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_23
             // 
@@ -228,8 +239,9 @@
             this.tb_23.Name = "tb_23";
             this.tb_23.Size = new System.Drawing.Size(39, 35);
             this.tb_23.TabIndex = 15;
-            this.tb_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_23.Tag = "23";
+            this.tb_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_23.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_15
             // 
@@ -238,8 +250,9 @@
             this.tb_15.Name = "tb_15";
             this.tb_15.Size = new System.Drawing.Size(39, 35);
             this.tb_15.TabIndex = 14;
-            this.tb_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_15.Tag = "15";
+            this.tb_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_15.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_14
             // 
@@ -248,8 +261,9 @@
             this.tb_14.Name = "tb_14";
             this.tb_14.Size = new System.Drawing.Size(39, 35);
             this.tb_14.TabIndex = 13;
-            this.tb_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_14.Tag = "14";
+            this.tb_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_14.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_13
             // 
@@ -258,8 +272,9 @@
             this.tb_13.Name = "tb_13";
             this.tb_13.Size = new System.Drawing.Size(39, 35);
             this.tb_13.TabIndex = 12;
-            this.tb_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_13.Tag = "13";
+            this.tb_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_13.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_05
             // 
@@ -268,8 +283,9 @@
             this.tb_05.Name = "tb_05";
             this.tb_05.Size = new System.Drawing.Size(39, 35);
             this.tb_05.TabIndex = 11;
-            this.tb_05.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_05.Tag = "05";
+            this.tb_05.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_05.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_04
             // 
@@ -278,8 +294,9 @@
             this.tb_04.Name = "tb_04";
             this.tb_04.Size = new System.Drawing.Size(39, 35);
             this.tb_04.TabIndex = 10;
-            this.tb_04.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_04.Tag = "04";
+            this.tb_04.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_04.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_03
             // 
@@ -288,8 +305,9 @@
             this.tb_03.Name = "tb_03";
             this.tb_03.Size = new System.Drawing.Size(39, 35);
             this.tb_03.TabIndex = 9;
-            this.tb_03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_03.Tag = "03";
+            this.tb_03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_03.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_28
             // 
@@ -298,8 +316,9 @@
             this.tb_28.Name = "tb_28";
             this.tb_28.Size = new System.Drawing.Size(39, 35);
             this.tb_28.TabIndex = 26;
-            this.tb_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_28.Tag = "28";
+            this.tb_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_28.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_27
             // 
@@ -308,8 +327,9 @@
             this.tb_27.Name = "tb_27";
             this.tb_27.Size = new System.Drawing.Size(39, 35);
             this.tb_27.TabIndex = 25;
-            this.tb_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_27.Tag = "27";
+            this.tb_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_27.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_26
             // 
@@ -318,8 +338,9 @@
             this.tb_26.Name = "tb_26";
             this.tb_26.Size = new System.Drawing.Size(39, 35);
             this.tb_26.TabIndex = 24;
-            this.tb_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_26.Tag = "26";
+            this.tb_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_26.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_18
             // 
@@ -328,8 +349,9 @@
             this.tb_18.Name = "tb_18";
             this.tb_18.Size = new System.Drawing.Size(39, 35);
             this.tb_18.TabIndex = 23;
-            this.tb_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_18.Tag = "18";
+            this.tb_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_18.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_17
             // 
@@ -338,8 +360,9 @@
             this.tb_17.Name = "tb_17";
             this.tb_17.Size = new System.Drawing.Size(39, 35);
             this.tb_17.TabIndex = 22;
-            this.tb_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_17.Tag = "17";
+            this.tb_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_17.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_16
             // 
@@ -348,8 +371,9 @@
             this.tb_16.Name = "tb_16";
             this.tb_16.Size = new System.Drawing.Size(39, 35);
             this.tb_16.TabIndex = 21;
-            this.tb_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_16.Tag = "16";
+            this.tb_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_16.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_08
             // 
@@ -358,8 +382,9 @@
             this.tb_08.Name = "tb_08";
             this.tb_08.Size = new System.Drawing.Size(39, 35);
             this.tb_08.TabIndex = 20;
-            this.tb_08.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_08.Tag = "08";
+            this.tb_08.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_08.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_07
             // 
@@ -368,8 +393,9 @@
             this.tb_07.Name = "tb_07";
             this.tb_07.Size = new System.Drawing.Size(39, 35);
             this.tb_07.TabIndex = 19;
-            this.tb_07.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_07.Tag = "07";
+            this.tb_07.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_07.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_06
             // 
@@ -378,8 +404,9 @@
             this.tb_06.Name = "tb_06";
             this.tb_06.Size = new System.Drawing.Size(39, 35);
             this.tb_06.TabIndex = 18;
-            this.tb_06.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_06.Tag = "06";
+            this.tb_06.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_06.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_58
             // 
@@ -388,8 +415,9 @@
             this.tb_58.Name = "tb_58";
             this.tb_58.Size = new System.Drawing.Size(39, 35);
             this.tb_58.TabIndex = 53;
-            this.tb_58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_58.Tag = "58";
+            this.tb_58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_58.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_57
             // 
@@ -398,8 +426,9 @@
             this.tb_57.Name = "tb_57";
             this.tb_57.Size = new System.Drawing.Size(39, 35);
             this.tb_57.TabIndex = 52;
-            this.tb_57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_57.Tag = "57";
+            this.tb_57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_57.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_56
             // 
@@ -408,8 +437,9 @@
             this.tb_56.Name = "tb_56";
             this.tb_56.Size = new System.Drawing.Size(39, 35);
             this.tb_56.TabIndex = 51;
-            this.tb_56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_56.Tag = "56";
+            this.tb_56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_56.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_48
             // 
@@ -418,8 +448,9 @@
             this.tb_48.Name = "tb_48";
             this.tb_48.Size = new System.Drawing.Size(39, 35);
             this.tb_48.TabIndex = 50;
-            this.tb_48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_48.Tag = "48";
+            this.tb_48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_48.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_47
             // 
@@ -428,8 +459,9 @@
             this.tb_47.Name = "tb_47";
             this.tb_47.Size = new System.Drawing.Size(39, 35);
             this.tb_47.TabIndex = 49;
-            this.tb_47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_47.Tag = "47";
+            this.tb_47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_47.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_46
             // 
@@ -438,8 +470,9 @@
             this.tb_46.Name = "tb_46";
             this.tb_46.Size = new System.Drawing.Size(39, 35);
             this.tb_46.TabIndex = 48;
-            this.tb_46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_46.Tag = "46";
+            this.tb_46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_46.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_38
             // 
@@ -448,8 +481,9 @@
             this.tb_38.Name = "tb_38";
             this.tb_38.Size = new System.Drawing.Size(39, 35);
             this.tb_38.TabIndex = 47;
-            this.tb_38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_38.Tag = "38";
+            this.tb_38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_38.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_37
             // 
@@ -458,8 +492,9 @@
             this.tb_37.Name = "tb_37";
             this.tb_37.Size = new System.Drawing.Size(39, 35);
             this.tb_37.TabIndex = 46;
-            this.tb_37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_37.Tag = "37";
+            this.tb_37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_37.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_36
             // 
@@ -468,8 +503,9 @@
             this.tb_36.Name = "tb_36";
             this.tb_36.Size = new System.Drawing.Size(39, 35);
             this.tb_36.TabIndex = 45;
-            this.tb_36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_36.Tag = "36";
+            this.tb_36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_36.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_55
             // 
@@ -478,8 +514,9 @@
             this.tb_55.Name = "tb_55";
             this.tb_55.Size = new System.Drawing.Size(39, 35);
             this.tb_55.TabIndex = 44;
-            this.tb_55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_55.Tag = "55";
+            this.tb_55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_55.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_54
             // 
@@ -488,8 +525,9 @@
             this.tb_54.Name = "tb_54";
             this.tb_54.Size = new System.Drawing.Size(39, 35);
             this.tb_54.TabIndex = 43;
-            this.tb_54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_54.Tag = "54";
+            this.tb_54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_54.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_53
             // 
@@ -498,8 +536,9 @@
             this.tb_53.Name = "tb_53";
             this.tb_53.Size = new System.Drawing.Size(39, 35);
             this.tb_53.TabIndex = 42;
-            this.tb_53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_53.Tag = "53";
+            this.tb_53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_53.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_45
             // 
@@ -508,8 +547,9 @@
             this.tb_45.Name = "tb_45";
             this.tb_45.Size = new System.Drawing.Size(39, 35);
             this.tb_45.TabIndex = 41;
-            this.tb_45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_45.Tag = "45";
+            this.tb_45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_45.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_44
             // 
@@ -518,8 +558,9 @@
             this.tb_44.Name = "tb_44";
             this.tb_44.Size = new System.Drawing.Size(39, 35);
             this.tb_44.TabIndex = 40;
-            this.tb_44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_44.Tag = "44";
+            this.tb_44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_44.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_43
             // 
@@ -528,8 +569,9 @@
             this.tb_43.Name = "tb_43";
             this.tb_43.Size = new System.Drawing.Size(39, 35);
             this.tb_43.TabIndex = 39;
-            this.tb_43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_43.Tag = "43";
+            this.tb_43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_43.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_35
             // 
@@ -538,8 +580,9 @@
             this.tb_35.Name = "tb_35";
             this.tb_35.Size = new System.Drawing.Size(39, 35);
             this.tb_35.TabIndex = 38;
-            this.tb_35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_35.Tag = "35";
+            this.tb_35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_35.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_34
             // 
@@ -548,8 +591,9 @@
             this.tb_34.Name = "tb_34";
             this.tb_34.Size = new System.Drawing.Size(39, 35);
             this.tb_34.TabIndex = 37;
-            this.tb_34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_34.Tag = "34";
+            this.tb_34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_34.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_33
             // 
@@ -558,8 +602,9 @@
             this.tb_33.Name = "tb_33";
             this.tb_33.Size = new System.Drawing.Size(39, 35);
             this.tb_33.TabIndex = 36;
-            this.tb_33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_33.Tag = "33";
+            this.tb_33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_33.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_52
             // 
@@ -568,8 +613,9 @@
             this.tb_52.Name = "tb_52";
             this.tb_52.Size = new System.Drawing.Size(39, 35);
             this.tb_52.TabIndex = 35;
-            this.tb_52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_52.Tag = "52";
+            this.tb_52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_52.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_51
             // 
@@ -578,8 +624,9 @@
             this.tb_51.Name = "tb_51";
             this.tb_51.Size = new System.Drawing.Size(39, 35);
             this.tb_51.TabIndex = 34;
-            this.tb_51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_51.Tag = "51";
+            this.tb_51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_51.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_50
             // 
@@ -588,8 +635,9 @@
             this.tb_50.Name = "tb_50";
             this.tb_50.Size = new System.Drawing.Size(39, 35);
             this.tb_50.TabIndex = 33;
-            this.tb_50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_50.Tag = "50";
+            this.tb_50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_50.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_42
             // 
@@ -598,8 +646,9 @@
             this.tb_42.Name = "tb_42";
             this.tb_42.Size = new System.Drawing.Size(39, 35);
             this.tb_42.TabIndex = 32;
-            this.tb_42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_42.Tag = "42";
+            this.tb_42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_42.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_41
             // 
@@ -608,8 +657,9 @@
             this.tb_41.Name = "tb_41";
             this.tb_41.Size = new System.Drawing.Size(39, 35);
             this.tb_41.TabIndex = 31;
-            this.tb_41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_41.Tag = "41";
+            this.tb_41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_41.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_40
             // 
@@ -618,8 +668,9 @@
             this.tb_40.Name = "tb_40";
             this.tb_40.Size = new System.Drawing.Size(39, 35);
             this.tb_40.TabIndex = 30;
-            this.tb_40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_40.Tag = "40";
+            this.tb_40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_40.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_32
             // 
@@ -628,8 +679,9 @@
             this.tb_32.Name = "tb_32";
             this.tb_32.Size = new System.Drawing.Size(39, 35);
             this.tb_32.TabIndex = 29;
-            this.tb_32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_32.Tag = "32";
+            this.tb_32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_32.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_31
             // 
@@ -638,8 +690,9 @@
             this.tb_31.Name = "tb_31";
             this.tb_31.Size = new System.Drawing.Size(39, 35);
             this.tb_31.TabIndex = 28;
-            this.tb_31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_31.Tag = "31";
+            this.tb_31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_31.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_30
             // 
@@ -648,8 +701,9 @@
             this.tb_30.Name = "tb_30";
             this.tb_30.Size = new System.Drawing.Size(39, 35);
             this.tb_30.TabIndex = 27;
-            this.tb_30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_30.Tag = "30";
+            this.tb_30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_30.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_88
             // 
@@ -658,8 +712,9 @@
             this.tb_88.Name = "tb_88";
             this.tb_88.Size = new System.Drawing.Size(39, 35);
             this.tb_88.TabIndex = 80;
-            this.tb_88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_88.Tag = "88";
+            this.tb_88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_88.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_87
             // 
@@ -668,8 +723,9 @@
             this.tb_87.Name = "tb_87";
             this.tb_87.Size = new System.Drawing.Size(39, 35);
             this.tb_87.TabIndex = 79;
-            this.tb_87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_87.Tag = "87";
+            this.tb_87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_87.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_86
             // 
@@ -678,8 +734,9 @@
             this.tb_86.Name = "tb_86";
             this.tb_86.Size = new System.Drawing.Size(39, 35);
             this.tb_86.TabIndex = 78;
-            this.tb_86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_86.Tag = "86";
+            this.tb_86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_86.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_78
             // 
@@ -688,8 +745,9 @@
             this.tb_78.Name = "tb_78";
             this.tb_78.Size = new System.Drawing.Size(39, 35);
             this.tb_78.TabIndex = 77;
-            this.tb_78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_78.Tag = "78";
+            this.tb_78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_78.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_77
             // 
@@ -698,8 +756,9 @@
             this.tb_77.Name = "tb_77";
             this.tb_77.Size = new System.Drawing.Size(39, 35);
             this.tb_77.TabIndex = 76;
-            this.tb_77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_77.Tag = "77";
+            this.tb_77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_77.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_76
             // 
@@ -708,8 +767,9 @@
             this.tb_76.Name = "tb_76";
             this.tb_76.Size = new System.Drawing.Size(39, 35);
             this.tb_76.TabIndex = 75;
-            this.tb_76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_76.Tag = "76";
+            this.tb_76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_76.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_68
             // 
@@ -718,8 +778,9 @@
             this.tb_68.Name = "tb_68";
             this.tb_68.Size = new System.Drawing.Size(39, 35);
             this.tb_68.TabIndex = 74;
-            this.tb_68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_68.Tag = "68";
+            this.tb_68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_68.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_67
             // 
@@ -728,8 +789,9 @@
             this.tb_67.Name = "tb_67";
             this.tb_67.Size = new System.Drawing.Size(39, 35);
             this.tb_67.TabIndex = 73;
-            this.tb_67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_67.Tag = "67";
+            this.tb_67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_67.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_66
             // 
@@ -738,8 +800,9 @@
             this.tb_66.Name = "tb_66";
             this.tb_66.Size = new System.Drawing.Size(39, 35);
             this.tb_66.TabIndex = 72;
-            this.tb_66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_66.Tag = "66";
+            this.tb_66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_66.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_85
             // 
@@ -748,8 +811,9 @@
             this.tb_85.Name = "tb_85";
             this.tb_85.Size = new System.Drawing.Size(39, 35);
             this.tb_85.TabIndex = 71;
-            this.tb_85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_85.Tag = "85";
+            this.tb_85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_85.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_84
             // 
@@ -758,8 +822,9 @@
             this.tb_84.Name = "tb_84";
             this.tb_84.Size = new System.Drawing.Size(39, 35);
             this.tb_84.TabIndex = 70;
-            this.tb_84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_84.Tag = "84";
+            this.tb_84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_84.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_83
             // 
@@ -768,8 +833,9 @@
             this.tb_83.Name = "tb_83";
             this.tb_83.Size = new System.Drawing.Size(39, 35);
             this.tb_83.TabIndex = 69;
-            this.tb_83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_83.Tag = "83";
+            this.tb_83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_83.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_75
             // 
@@ -778,8 +844,9 @@
             this.tb_75.Name = "tb_75";
             this.tb_75.Size = new System.Drawing.Size(39, 35);
             this.tb_75.TabIndex = 68;
-            this.tb_75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_75.Tag = "75";
+            this.tb_75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_75.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_74
             // 
@@ -788,8 +855,9 @@
             this.tb_74.Name = "tb_74";
             this.tb_74.Size = new System.Drawing.Size(39, 35);
             this.tb_74.TabIndex = 67;
-            this.tb_74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_74.Tag = "74";
+            this.tb_74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_74.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_73
             // 
@@ -798,8 +866,9 @@
             this.tb_73.Name = "tb_73";
             this.tb_73.Size = new System.Drawing.Size(39, 35);
             this.tb_73.TabIndex = 66;
-            this.tb_73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_73.Tag = "73";
+            this.tb_73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_73.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_65
             // 
@@ -808,8 +877,9 @@
             this.tb_65.Name = "tb_65";
             this.tb_65.Size = new System.Drawing.Size(39, 35);
             this.tb_65.TabIndex = 65;
-            this.tb_65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_65.Tag = "65";
+            this.tb_65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_65.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_64
             // 
@@ -818,8 +888,9 @@
             this.tb_64.Name = "tb_64";
             this.tb_64.Size = new System.Drawing.Size(39, 35);
             this.tb_64.TabIndex = 64;
-            this.tb_64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_64.Tag = "64";
+            this.tb_64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_64.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_63
             // 
@@ -828,8 +899,9 @@
             this.tb_63.Name = "tb_63";
             this.tb_63.Size = new System.Drawing.Size(39, 35);
             this.tb_63.TabIndex = 63;
-            this.tb_63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_63.Tag = "63";
+            this.tb_63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_63.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_82
             // 
@@ -838,8 +910,9 @@
             this.tb_82.Name = "tb_82";
             this.tb_82.Size = new System.Drawing.Size(39, 35);
             this.tb_82.TabIndex = 62;
-            this.tb_82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_82.Tag = "82";
+            this.tb_82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_82.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_81
             // 
@@ -848,8 +921,9 @@
             this.tb_81.Name = "tb_81";
             this.tb_81.Size = new System.Drawing.Size(39, 35);
             this.tb_81.TabIndex = 61;
-            this.tb_81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_81.Tag = "81";
+            this.tb_81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_81.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_80
             // 
@@ -858,8 +932,9 @@
             this.tb_80.Name = "tb_80";
             this.tb_80.Size = new System.Drawing.Size(39, 35);
             this.tb_80.TabIndex = 60;
-            this.tb_80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_80.Tag = "80";
+            this.tb_80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_80.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_72
             // 
@@ -868,8 +943,9 @@
             this.tb_72.Name = "tb_72";
             this.tb_72.Size = new System.Drawing.Size(39, 35);
             this.tb_72.TabIndex = 59;
-            this.tb_72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_72.Tag = "72";
+            this.tb_72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_72.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_71
             // 
@@ -878,8 +954,9 @@
             this.tb_71.Name = "tb_71";
             this.tb_71.Size = new System.Drawing.Size(39, 35);
             this.tb_71.TabIndex = 58;
-            this.tb_71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_71.Tag = "71";
+            this.tb_71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_71.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_70
             // 
@@ -888,8 +965,9 @@
             this.tb_70.Name = "tb_70";
             this.tb_70.Size = new System.Drawing.Size(39, 35);
             this.tb_70.TabIndex = 57;
-            this.tb_70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_70.Tag = "70";
+            this.tb_70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_70.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_62
             // 
@@ -898,8 +976,9 @@
             this.tb_62.Name = "tb_62";
             this.tb_62.Size = new System.Drawing.Size(39, 35);
             this.tb_62.TabIndex = 56;
-            this.tb_62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_62.Tag = "62";
+            this.tb_62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_62.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_61
             // 
@@ -908,8 +987,9 @@
             this.tb_61.Name = "tb_61";
             this.tb_61.Size = new System.Drawing.Size(39, 35);
             this.tb_61.TabIndex = 55;
-            this.tb_61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_61.Tag = "61";
+            this.tb_61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_61.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // tb_60
             // 
@@ -918,8 +998,9 @@
             this.tb_60.Name = "tb_60";
             this.tb_60.Size = new System.Drawing.Size(39, 35);
             this.tb_60.TabIndex = 54;
-            this.tb_60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_60.Tag = "60";
+            this.tb_60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_60.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // SuDoKu
             // 
