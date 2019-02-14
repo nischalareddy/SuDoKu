@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace SuDoKu
         {
             InitializeComponent();
             MapTextBoxToBoardReferences();
+            DisplaySolvedPuzzle();
         }
 
         #region Board array initialization
@@ -107,6 +109,32 @@ namespace SuDoKu
         }
         #endregion
 
+        private void DisplaySolvedPuzzle()
+        {
+            String[] lines = File.ReadAllLines(Globals.path);
+            
+
+            string[,,] puzzle = new string[lines.Length, 9, 9];
+            for( int k = 0; k < lines.Length; k++)
+            {
+                int l = 0;
+                for(int i = 0; i < 9; i++)
+                {
+                    for( int j = 0; j < 9; j++)
+                    {
+                        puzzle[k, i, j] = lines[k][l++].ToString();
+                    }
+                }
+            }
+
+            for( int i = 0; i < 9; i++)
+            {
+                for(int j = 0; j < 9; j++)
+                {
+                    Board[i,j].Text = puzzle[0,i, j];
+                }
+            }
+        } 
         private void Text_Changed(object sender, EventArgs e)
         {
             TextBox CurrentTb = (TextBox)sender;
