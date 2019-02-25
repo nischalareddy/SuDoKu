@@ -109,12 +109,15 @@
             this.tb_62 = new System.Windows.Forms.TextBox();
             this.tb_61 = new System.Windows.Forms.TextBox();
             this.tb_60 = new System.Windows.Forms.TextBox();
+            this.bNewGame = new System.Windows.Forms.Button();
+            this.bSolution = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tb_00
             // 
             this.tb_00.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_00.Location = new System.Drawing.Point(113, 93);
+            this.tb_00.Location = new System.Drawing.Point(191, 278);
+            this.tb_00.MaxLength = 1;
             this.tb_00.Name = "tb_00";
             this.tb_00.Size = new System.Drawing.Size(39, 35);
             this.tb_00.TabIndex = 0;
@@ -125,7 +128,8 @@
             // tb_01
             // 
             this.tb_01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_01.Location = new System.Drawing.Point(158, 93);
+            this.tb_01.Location = new System.Drawing.Point(236, 278);
+            this.tb_01.MaxLength = 1;
             this.tb_01.Name = "tb_01";
             this.tb_01.Size = new System.Drawing.Size(39, 35);
             this.tb_01.TabIndex = 1;
@@ -136,7 +140,8 @@
             // tb_02
             // 
             this.tb_02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_02.Location = new System.Drawing.Point(203, 93);
+            this.tb_02.Location = new System.Drawing.Point(281, 278);
+            this.tb_02.MaxLength = 1;
             this.tb_02.Name = "tb_02";
             this.tb_02.Size = new System.Drawing.Size(39, 35);
             this.tb_02.TabIndex = 2;
@@ -147,7 +152,8 @@
             // tb_12
             // 
             this.tb_12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_12.Location = new System.Drawing.Point(203, 125);
+            this.tb_12.Location = new System.Drawing.Point(281, 310);
+            this.tb_12.MaxLength = 1;
             this.tb_12.Name = "tb_12";
             this.tb_12.Size = new System.Drawing.Size(39, 35);
             this.tb_12.TabIndex = 5;
@@ -158,7 +164,8 @@
             // tb_11
             // 
             this.tb_11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_11.Location = new System.Drawing.Point(158, 125);
+            this.tb_11.Location = new System.Drawing.Point(236, 310);
+            this.tb_11.MaxLength = 1;
             this.tb_11.Name = "tb_11";
             this.tb_11.Size = new System.Drawing.Size(39, 35);
             this.tb_11.TabIndex = 4;
@@ -169,7 +176,8 @@
             // tb_10
             // 
             this.tb_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_10.Location = new System.Drawing.Point(113, 125);
+            this.tb_10.Location = new System.Drawing.Point(191, 310);
+            this.tb_10.MaxLength = 1;
             this.tb_10.Name = "tb_10";
             this.tb_10.Size = new System.Drawing.Size(39, 35);
             this.tb_10.TabIndex = 3;
@@ -180,7 +188,8 @@
             // tb_22
             // 
             this.tb_22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_22.Location = new System.Drawing.Point(203, 157);
+            this.tb_22.Location = new System.Drawing.Point(281, 342);
+            this.tb_22.MaxLength = 1;
             this.tb_22.Name = "tb_22";
             this.tb_22.Size = new System.Drawing.Size(39, 35);
             this.tb_22.TabIndex = 8;
@@ -191,7 +200,8 @@
             // tb_21
             // 
             this.tb_21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_21.Location = new System.Drawing.Point(158, 157);
+            this.tb_21.Location = new System.Drawing.Point(236, 342);
+            this.tb_21.MaxLength = 1;
             this.tb_21.Name = "tb_21";
             this.tb_21.Size = new System.Drawing.Size(39, 35);
             this.tb_21.TabIndex = 7;
@@ -202,7 +212,8 @@
             // tb_20
             // 
             this.tb_20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_20.Location = new System.Drawing.Point(113, 157);
+            this.tb_20.Location = new System.Drawing.Point(191, 342);
+            this.tb_20.MaxLength = 1;
             this.tb_20.Name = "tb_20";
             this.tb_20.Size = new System.Drawing.Size(39, 35);
             this.tb_20.TabIndex = 6;
@@ -213,7 +224,8 @@
             // tb_25
             // 
             this.tb_25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_25.Location = new System.Drawing.Point(350, 157);
+            this.tb_25.Location = new System.Drawing.Point(428, 342);
+            this.tb_25.MaxLength = 1;
             this.tb_25.Name = "tb_25";
             this.tb_25.Size = new System.Drawing.Size(39, 35);
             this.tb_25.TabIndex = 17;
@@ -224,7 +236,8 @@
             // tb_24
             // 
             this.tb_24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_24.Location = new System.Drawing.Point(305, 157);
+            this.tb_24.Location = new System.Drawing.Point(383, 342);
+            this.tb_24.MaxLength = 1;
             this.tb_24.Name = "tb_24";
             this.tb_24.Size = new System.Drawing.Size(39, 35);
             this.tb_24.TabIndex = 16;
@@ -235,7 +248,8 @@
             // tb_23
             // 
             this.tb_23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_23.Location = new System.Drawing.Point(260, 157);
+            this.tb_23.Location = new System.Drawing.Point(338, 342);
+            this.tb_23.MaxLength = 1;
             this.tb_23.Name = "tb_23";
             this.tb_23.Size = new System.Drawing.Size(39, 35);
             this.tb_23.TabIndex = 15;
@@ -246,7 +260,8 @@
             // tb_15
             // 
             this.tb_15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_15.Location = new System.Drawing.Point(350, 125);
+            this.tb_15.Location = new System.Drawing.Point(428, 310);
+            this.tb_15.MaxLength = 1;
             this.tb_15.Name = "tb_15";
             this.tb_15.Size = new System.Drawing.Size(39, 35);
             this.tb_15.TabIndex = 14;
@@ -257,7 +272,8 @@
             // tb_14
             // 
             this.tb_14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_14.Location = new System.Drawing.Point(305, 125);
+            this.tb_14.Location = new System.Drawing.Point(383, 310);
+            this.tb_14.MaxLength = 1;
             this.tb_14.Name = "tb_14";
             this.tb_14.Size = new System.Drawing.Size(39, 35);
             this.tb_14.TabIndex = 13;
@@ -268,7 +284,8 @@
             // tb_13
             // 
             this.tb_13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_13.Location = new System.Drawing.Point(260, 125);
+            this.tb_13.Location = new System.Drawing.Point(338, 310);
+            this.tb_13.MaxLength = 1;
             this.tb_13.Name = "tb_13";
             this.tb_13.Size = new System.Drawing.Size(39, 35);
             this.tb_13.TabIndex = 12;
@@ -279,7 +296,8 @@
             // tb_05
             // 
             this.tb_05.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_05.Location = new System.Drawing.Point(350, 93);
+            this.tb_05.Location = new System.Drawing.Point(428, 278);
+            this.tb_05.MaxLength = 1;
             this.tb_05.Name = "tb_05";
             this.tb_05.Size = new System.Drawing.Size(39, 35);
             this.tb_05.TabIndex = 11;
@@ -290,7 +308,8 @@
             // tb_04
             // 
             this.tb_04.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_04.Location = new System.Drawing.Point(305, 93);
+            this.tb_04.Location = new System.Drawing.Point(383, 278);
+            this.tb_04.MaxLength = 1;
             this.tb_04.Name = "tb_04";
             this.tb_04.Size = new System.Drawing.Size(39, 35);
             this.tb_04.TabIndex = 10;
@@ -301,7 +320,8 @@
             // tb_03
             // 
             this.tb_03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_03.Location = new System.Drawing.Point(260, 93);
+            this.tb_03.Location = new System.Drawing.Point(338, 278);
+            this.tb_03.MaxLength = 1;
             this.tb_03.Name = "tb_03";
             this.tb_03.Size = new System.Drawing.Size(39, 35);
             this.tb_03.TabIndex = 9;
@@ -312,7 +332,8 @@
             // tb_28
             // 
             this.tb_28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_28.Location = new System.Drawing.Point(500, 157);
+            this.tb_28.Location = new System.Drawing.Point(578, 342);
+            this.tb_28.MaxLength = 1;
             this.tb_28.Name = "tb_28";
             this.tb_28.Size = new System.Drawing.Size(39, 35);
             this.tb_28.TabIndex = 26;
@@ -323,7 +344,8 @@
             // tb_27
             // 
             this.tb_27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_27.Location = new System.Drawing.Point(455, 157);
+            this.tb_27.Location = new System.Drawing.Point(533, 342);
+            this.tb_27.MaxLength = 1;
             this.tb_27.Name = "tb_27";
             this.tb_27.Size = new System.Drawing.Size(39, 35);
             this.tb_27.TabIndex = 25;
@@ -334,7 +356,8 @@
             // tb_26
             // 
             this.tb_26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_26.Location = new System.Drawing.Point(410, 157);
+            this.tb_26.Location = new System.Drawing.Point(488, 342);
+            this.tb_26.MaxLength = 1;
             this.tb_26.Name = "tb_26";
             this.tb_26.Size = new System.Drawing.Size(39, 35);
             this.tb_26.TabIndex = 24;
@@ -345,7 +368,8 @@
             // tb_18
             // 
             this.tb_18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_18.Location = new System.Drawing.Point(500, 125);
+            this.tb_18.Location = new System.Drawing.Point(578, 310);
+            this.tb_18.MaxLength = 1;
             this.tb_18.Name = "tb_18";
             this.tb_18.Size = new System.Drawing.Size(39, 35);
             this.tb_18.TabIndex = 23;
@@ -356,7 +380,8 @@
             // tb_17
             // 
             this.tb_17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_17.Location = new System.Drawing.Point(455, 125);
+            this.tb_17.Location = new System.Drawing.Point(533, 310);
+            this.tb_17.MaxLength = 1;
             this.tb_17.Name = "tb_17";
             this.tb_17.Size = new System.Drawing.Size(39, 35);
             this.tb_17.TabIndex = 22;
@@ -367,7 +392,8 @@
             // tb_16
             // 
             this.tb_16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_16.Location = new System.Drawing.Point(410, 125);
+            this.tb_16.Location = new System.Drawing.Point(488, 310);
+            this.tb_16.MaxLength = 1;
             this.tb_16.Name = "tb_16";
             this.tb_16.Size = new System.Drawing.Size(39, 35);
             this.tb_16.TabIndex = 21;
@@ -378,7 +404,8 @@
             // tb_08
             // 
             this.tb_08.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_08.Location = new System.Drawing.Point(500, 93);
+            this.tb_08.Location = new System.Drawing.Point(578, 278);
+            this.tb_08.MaxLength = 1;
             this.tb_08.Name = "tb_08";
             this.tb_08.Size = new System.Drawing.Size(39, 35);
             this.tb_08.TabIndex = 20;
@@ -389,7 +416,8 @@
             // tb_07
             // 
             this.tb_07.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_07.Location = new System.Drawing.Point(455, 93);
+            this.tb_07.Location = new System.Drawing.Point(533, 278);
+            this.tb_07.MaxLength = 1;
             this.tb_07.Name = "tb_07";
             this.tb_07.Size = new System.Drawing.Size(39, 35);
             this.tb_07.TabIndex = 19;
@@ -400,7 +428,8 @@
             // tb_06
             // 
             this.tb_06.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_06.Location = new System.Drawing.Point(410, 93);
+            this.tb_06.Location = new System.Drawing.Point(488, 278);
+            this.tb_06.MaxLength = 1;
             this.tb_06.Name = "tb_06";
             this.tb_06.Size = new System.Drawing.Size(39, 35);
             this.tb_06.TabIndex = 18;
@@ -411,7 +440,8 @@
             // tb_58
             // 
             this.tb_58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_58.Location = new System.Drawing.Point(500, 268);
+            this.tb_58.Location = new System.Drawing.Point(578, 453);
+            this.tb_58.MaxLength = 1;
             this.tb_58.Name = "tb_58";
             this.tb_58.Size = new System.Drawing.Size(39, 35);
             this.tb_58.TabIndex = 53;
@@ -422,7 +452,8 @@
             // tb_57
             // 
             this.tb_57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_57.Location = new System.Drawing.Point(455, 268);
+            this.tb_57.Location = new System.Drawing.Point(533, 453);
+            this.tb_57.MaxLength = 1;
             this.tb_57.Name = "tb_57";
             this.tb_57.Size = new System.Drawing.Size(39, 35);
             this.tb_57.TabIndex = 52;
@@ -433,7 +464,8 @@
             // tb_56
             // 
             this.tb_56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_56.Location = new System.Drawing.Point(410, 268);
+            this.tb_56.Location = new System.Drawing.Point(488, 453);
+            this.tb_56.MaxLength = 1;
             this.tb_56.Name = "tb_56";
             this.tb_56.Size = new System.Drawing.Size(39, 35);
             this.tb_56.TabIndex = 51;
@@ -444,7 +476,8 @@
             // tb_48
             // 
             this.tb_48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_48.Location = new System.Drawing.Point(500, 236);
+            this.tb_48.Location = new System.Drawing.Point(578, 421);
+            this.tb_48.MaxLength = 1;
             this.tb_48.Name = "tb_48";
             this.tb_48.Size = new System.Drawing.Size(39, 35);
             this.tb_48.TabIndex = 50;
@@ -455,7 +488,8 @@
             // tb_47
             // 
             this.tb_47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_47.Location = new System.Drawing.Point(455, 236);
+            this.tb_47.Location = new System.Drawing.Point(533, 421);
+            this.tb_47.MaxLength = 1;
             this.tb_47.Name = "tb_47";
             this.tb_47.Size = new System.Drawing.Size(39, 35);
             this.tb_47.TabIndex = 49;
@@ -466,7 +500,8 @@
             // tb_46
             // 
             this.tb_46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_46.Location = new System.Drawing.Point(410, 236);
+            this.tb_46.Location = new System.Drawing.Point(488, 421);
+            this.tb_46.MaxLength = 1;
             this.tb_46.Name = "tb_46";
             this.tb_46.Size = new System.Drawing.Size(39, 35);
             this.tb_46.TabIndex = 48;
@@ -477,7 +512,8 @@
             // tb_38
             // 
             this.tb_38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_38.Location = new System.Drawing.Point(500, 204);
+            this.tb_38.Location = new System.Drawing.Point(578, 389);
+            this.tb_38.MaxLength = 1;
             this.tb_38.Name = "tb_38";
             this.tb_38.Size = new System.Drawing.Size(39, 35);
             this.tb_38.TabIndex = 47;
@@ -488,7 +524,8 @@
             // tb_37
             // 
             this.tb_37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_37.Location = new System.Drawing.Point(455, 204);
+            this.tb_37.Location = new System.Drawing.Point(533, 389);
+            this.tb_37.MaxLength = 1;
             this.tb_37.Name = "tb_37";
             this.tb_37.Size = new System.Drawing.Size(39, 35);
             this.tb_37.TabIndex = 46;
@@ -499,7 +536,8 @@
             // tb_36
             // 
             this.tb_36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_36.Location = new System.Drawing.Point(410, 204);
+            this.tb_36.Location = new System.Drawing.Point(488, 389);
+            this.tb_36.MaxLength = 1;
             this.tb_36.Name = "tb_36";
             this.tb_36.Size = new System.Drawing.Size(39, 35);
             this.tb_36.TabIndex = 45;
@@ -510,7 +548,8 @@
             // tb_55
             // 
             this.tb_55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_55.Location = new System.Drawing.Point(350, 268);
+            this.tb_55.Location = new System.Drawing.Point(428, 453);
+            this.tb_55.MaxLength = 1;
             this.tb_55.Name = "tb_55";
             this.tb_55.Size = new System.Drawing.Size(39, 35);
             this.tb_55.TabIndex = 44;
@@ -521,7 +560,8 @@
             // tb_54
             // 
             this.tb_54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_54.Location = new System.Drawing.Point(305, 268);
+            this.tb_54.Location = new System.Drawing.Point(383, 453);
+            this.tb_54.MaxLength = 1;
             this.tb_54.Name = "tb_54";
             this.tb_54.Size = new System.Drawing.Size(39, 35);
             this.tb_54.TabIndex = 43;
@@ -532,7 +572,8 @@
             // tb_53
             // 
             this.tb_53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_53.Location = new System.Drawing.Point(260, 268);
+            this.tb_53.Location = new System.Drawing.Point(338, 453);
+            this.tb_53.MaxLength = 1;
             this.tb_53.Name = "tb_53";
             this.tb_53.Size = new System.Drawing.Size(39, 35);
             this.tb_53.TabIndex = 42;
@@ -543,7 +584,8 @@
             // tb_45
             // 
             this.tb_45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_45.Location = new System.Drawing.Point(350, 236);
+            this.tb_45.Location = new System.Drawing.Point(428, 421);
+            this.tb_45.MaxLength = 1;
             this.tb_45.Name = "tb_45";
             this.tb_45.Size = new System.Drawing.Size(39, 35);
             this.tb_45.TabIndex = 41;
@@ -554,7 +596,8 @@
             // tb_44
             // 
             this.tb_44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_44.Location = new System.Drawing.Point(305, 236);
+            this.tb_44.Location = new System.Drawing.Point(383, 421);
+            this.tb_44.MaxLength = 1;
             this.tb_44.Name = "tb_44";
             this.tb_44.Size = new System.Drawing.Size(39, 35);
             this.tb_44.TabIndex = 40;
@@ -565,7 +608,8 @@
             // tb_43
             // 
             this.tb_43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_43.Location = new System.Drawing.Point(260, 236);
+            this.tb_43.Location = new System.Drawing.Point(338, 421);
+            this.tb_43.MaxLength = 1;
             this.tb_43.Name = "tb_43";
             this.tb_43.Size = new System.Drawing.Size(39, 35);
             this.tb_43.TabIndex = 39;
@@ -576,7 +620,8 @@
             // tb_35
             // 
             this.tb_35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_35.Location = new System.Drawing.Point(350, 204);
+            this.tb_35.Location = new System.Drawing.Point(428, 389);
+            this.tb_35.MaxLength = 1;
             this.tb_35.Name = "tb_35";
             this.tb_35.Size = new System.Drawing.Size(39, 35);
             this.tb_35.TabIndex = 38;
@@ -587,7 +632,8 @@
             // tb_34
             // 
             this.tb_34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_34.Location = new System.Drawing.Point(305, 204);
+            this.tb_34.Location = new System.Drawing.Point(383, 389);
+            this.tb_34.MaxLength = 1;
             this.tb_34.Name = "tb_34";
             this.tb_34.Size = new System.Drawing.Size(39, 35);
             this.tb_34.TabIndex = 37;
@@ -598,7 +644,8 @@
             // tb_33
             // 
             this.tb_33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_33.Location = new System.Drawing.Point(260, 204);
+            this.tb_33.Location = new System.Drawing.Point(338, 389);
+            this.tb_33.MaxLength = 1;
             this.tb_33.Name = "tb_33";
             this.tb_33.Size = new System.Drawing.Size(39, 35);
             this.tb_33.TabIndex = 36;
@@ -609,7 +656,8 @@
             // tb_52
             // 
             this.tb_52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_52.Location = new System.Drawing.Point(203, 268);
+            this.tb_52.Location = new System.Drawing.Point(281, 453);
+            this.tb_52.MaxLength = 1;
             this.tb_52.Name = "tb_52";
             this.tb_52.Size = new System.Drawing.Size(39, 35);
             this.tb_52.TabIndex = 35;
@@ -620,7 +668,8 @@
             // tb_51
             // 
             this.tb_51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_51.Location = new System.Drawing.Point(158, 268);
+            this.tb_51.Location = new System.Drawing.Point(236, 453);
+            this.tb_51.MaxLength = 1;
             this.tb_51.Name = "tb_51";
             this.tb_51.Size = new System.Drawing.Size(39, 35);
             this.tb_51.TabIndex = 34;
@@ -631,7 +680,8 @@
             // tb_50
             // 
             this.tb_50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_50.Location = new System.Drawing.Point(113, 268);
+            this.tb_50.Location = new System.Drawing.Point(191, 453);
+            this.tb_50.MaxLength = 1;
             this.tb_50.Name = "tb_50";
             this.tb_50.Size = new System.Drawing.Size(39, 35);
             this.tb_50.TabIndex = 33;
@@ -642,7 +692,8 @@
             // tb_42
             // 
             this.tb_42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_42.Location = new System.Drawing.Point(203, 236);
+            this.tb_42.Location = new System.Drawing.Point(281, 421);
+            this.tb_42.MaxLength = 1;
             this.tb_42.Name = "tb_42";
             this.tb_42.Size = new System.Drawing.Size(39, 35);
             this.tb_42.TabIndex = 32;
@@ -653,7 +704,8 @@
             // tb_41
             // 
             this.tb_41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_41.Location = new System.Drawing.Point(158, 236);
+            this.tb_41.Location = new System.Drawing.Point(236, 421);
+            this.tb_41.MaxLength = 1;
             this.tb_41.Name = "tb_41";
             this.tb_41.Size = new System.Drawing.Size(39, 35);
             this.tb_41.TabIndex = 31;
@@ -664,7 +716,8 @@
             // tb_40
             // 
             this.tb_40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_40.Location = new System.Drawing.Point(113, 236);
+            this.tb_40.Location = new System.Drawing.Point(191, 421);
+            this.tb_40.MaxLength = 1;
             this.tb_40.Name = "tb_40";
             this.tb_40.Size = new System.Drawing.Size(39, 35);
             this.tb_40.TabIndex = 30;
@@ -675,7 +728,8 @@
             // tb_32
             // 
             this.tb_32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_32.Location = new System.Drawing.Point(203, 204);
+            this.tb_32.Location = new System.Drawing.Point(281, 389);
+            this.tb_32.MaxLength = 1;
             this.tb_32.Name = "tb_32";
             this.tb_32.Size = new System.Drawing.Size(39, 35);
             this.tb_32.TabIndex = 29;
@@ -686,7 +740,8 @@
             // tb_31
             // 
             this.tb_31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_31.Location = new System.Drawing.Point(158, 204);
+            this.tb_31.Location = new System.Drawing.Point(236, 389);
+            this.tb_31.MaxLength = 1;
             this.tb_31.Name = "tb_31";
             this.tb_31.Size = new System.Drawing.Size(39, 35);
             this.tb_31.TabIndex = 28;
@@ -697,7 +752,8 @@
             // tb_30
             // 
             this.tb_30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_30.Location = new System.Drawing.Point(113, 204);
+            this.tb_30.Location = new System.Drawing.Point(191, 389);
+            this.tb_30.MaxLength = 1;
             this.tb_30.Name = "tb_30";
             this.tb_30.Size = new System.Drawing.Size(39, 35);
             this.tb_30.TabIndex = 27;
@@ -708,7 +764,8 @@
             // tb_88
             // 
             this.tb_88.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_88.Location = new System.Drawing.Point(500, 379);
+            this.tb_88.Location = new System.Drawing.Point(578, 564);
+            this.tb_88.MaxLength = 1;
             this.tb_88.Name = "tb_88";
             this.tb_88.Size = new System.Drawing.Size(39, 35);
             this.tb_88.TabIndex = 80;
@@ -719,7 +776,8 @@
             // tb_87
             // 
             this.tb_87.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_87.Location = new System.Drawing.Point(455, 379);
+            this.tb_87.Location = new System.Drawing.Point(533, 564);
+            this.tb_87.MaxLength = 1;
             this.tb_87.Name = "tb_87";
             this.tb_87.Size = new System.Drawing.Size(39, 35);
             this.tb_87.TabIndex = 79;
@@ -730,7 +788,8 @@
             // tb_86
             // 
             this.tb_86.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_86.Location = new System.Drawing.Point(410, 379);
+            this.tb_86.Location = new System.Drawing.Point(488, 564);
+            this.tb_86.MaxLength = 1;
             this.tb_86.Name = "tb_86";
             this.tb_86.Size = new System.Drawing.Size(39, 35);
             this.tb_86.TabIndex = 78;
@@ -741,7 +800,8 @@
             // tb_78
             // 
             this.tb_78.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_78.Location = new System.Drawing.Point(500, 347);
+            this.tb_78.Location = new System.Drawing.Point(578, 532);
+            this.tb_78.MaxLength = 1;
             this.tb_78.Name = "tb_78";
             this.tb_78.Size = new System.Drawing.Size(39, 35);
             this.tb_78.TabIndex = 77;
@@ -752,7 +812,8 @@
             // tb_77
             // 
             this.tb_77.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_77.Location = new System.Drawing.Point(455, 347);
+            this.tb_77.Location = new System.Drawing.Point(533, 532);
+            this.tb_77.MaxLength = 1;
             this.tb_77.Name = "tb_77";
             this.tb_77.Size = new System.Drawing.Size(39, 35);
             this.tb_77.TabIndex = 76;
@@ -763,7 +824,8 @@
             // tb_76
             // 
             this.tb_76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_76.Location = new System.Drawing.Point(410, 347);
+            this.tb_76.Location = new System.Drawing.Point(488, 532);
+            this.tb_76.MaxLength = 1;
             this.tb_76.Name = "tb_76";
             this.tb_76.Size = new System.Drawing.Size(39, 35);
             this.tb_76.TabIndex = 75;
@@ -774,7 +836,8 @@
             // tb_68
             // 
             this.tb_68.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_68.Location = new System.Drawing.Point(500, 315);
+            this.tb_68.Location = new System.Drawing.Point(578, 500);
+            this.tb_68.MaxLength = 1;
             this.tb_68.Name = "tb_68";
             this.tb_68.Size = new System.Drawing.Size(39, 35);
             this.tb_68.TabIndex = 74;
@@ -785,7 +848,8 @@
             // tb_67
             // 
             this.tb_67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_67.Location = new System.Drawing.Point(455, 315);
+            this.tb_67.Location = new System.Drawing.Point(533, 500);
+            this.tb_67.MaxLength = 1;
             this.tb_67.Name = "tb_67";
             this.tb_67.Size = new System.Drawing.Size(39, 35);
             this.tb_67.TabIndex = 73;
@@ -796,7 +860,8 @@
             // tb_66
             // 
             this.tb_66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_66.Location = new System.Drawing.Point(410, 315);
+            this.tb_66.Location = new System.Drawing.Point(488, 500);
+            this.tb_66.MaxLength = 1;
             this.tb_66.Name = "tb_66";
             this.tb_66.Size = new System.Drawing.Size(39, 35);
             this.tb_66.TabIndex = 72;
@@ -807,7 +872,8 @@
             // tb_85
             // 
             this.tb_85.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_85.Location = new System.Drawing.Point(350, 379);
+            this.tb_85.Location = new System.Drawing.Point(428, 564);
+            this.tb_85.MaxLength = 1;
             this.tb_85.Name = "tb_85";
             this.tb_85.Size = new System.Drawing.Size(39, 35);
             this.tb_85.TabIndex = 71;
@@ -818,7 +884,8 @@
             // tb_84
             // 
             this.tb_84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_84.Location = new System.Drawing.Point(305, 379);
+            this.tb_84.Location = new System.Drawing.Point(383, 564);
+            this.tb_84.MaxLength = 1;
             this.tb_84.Name = "tb_84";
             this.tb_84.Size = new System.Drawing.Size(39, 35);
             this.tb_84.TabIndex = 70;
@@ -829,7 +896,8 @@
             // tb_83
             // 
             this.tb_83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_83.Location = new System.Drawing.Point(260, 379);
+            this.tb_83.Location = new System.Drawing.Point(338, 564);
+            this.tb_83.MaxLength = 1;
             this.tb_83.Name = "tb_83";
             this.tb_83.Size = new System.Drawing.Size(39, 35);
             this.tb_83.TabIndex = 69;
@@ -840,7 +908,8 @@
             // tb_75
             // 
             this.tb_75.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_75.Location = new System.Drawing.Point(350, 347);
+            this.tb_75.Location = new System.Drawing.Point(428, 532);
+            this.tb_75.MaxLength = 1;
             this.tb_75.Name = "tb_75";
             this.tb_75.Size = new System.Drawing.Size(39, 35);
             this.tb_75.TabIndex = 68;
@@ -851,7 +920,8 @@
             // tb_74
             // 
             this.tb_74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_74.Location = new System.Drawing.Point(305, 347);
+            this.tb_74.Location = new System.Drawing.Point(383, 532);
+            this.tb_74.MaxLength = 1;
             this.tb_74.Name = "tb_74";
             this.tb_74.Size = new System.Drawing.Size(39, 35);
             this.tb_74.TabIndex = 67;
@@ -862,7 +932,8 @@
             // tb_73
             // 
             this.tb_73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_73.Location = new System.Drawing.Point(260, 347);
+            this.tb_73.Location = new System.Drawing.Point(338, 532);
+            this.tb_73.MaxLength = 1;
             this.tb_73.Name = "tb_73";
             this.tb_73.Size = new System.Drawing.Size(39, 35);
             this.tb_73.TabIndex = 66;
@@ -873,7 +944,8 @@
             // tb_65
             // 
             this.tb_65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_65.Location = new System.Drawing.Point(350, 315);
+            this.tb_65.Location = new System.Drawing.Point(428, 500);
+            this.tb_65.MaxLength = 1;
             this.tb_65.Name = "tb_65";
             this.tb_65.Size = new System.Drawing.Size(39, 35);
             this.tb_65.TabIndex = 65;
@@ -884,7 +956,8 @@
             // tb_64
             // 
             this.tb_64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_64.Location = new System.Drawing.Point(305, 315);
+            this.tb_64.Location = new System.Drawing.Point(383, 500);
+            this.tb_64.MaxLength = 1;
             this.tb_64.Name = "tb_64";
             this.tb_64.Size = new System.Drawing.Size(39, 35);
             this.tb_64.TabIndex = 64;
@@ -895,7 +968,8 @@
             // tb_63
             // 
             this.tb_63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_63.Location = new System.Drawing.Point(260, 315);
+            this.tb_63.Location = new System.Drawing.Point(338, 500);
+            this.tb_63.MaxLength = 1;
             this.tb_63.Name = "tb_63";
             this.tb_63.Size = new System.Drawing.Size(39, 35);
             this.tb_63.TabIndex = 63;
@@ -906,7 +980,8 @@
             // tb_82
             // 
             this.tb_82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_82.Location = new System.Drawing.Point(203, 379);
+            this.tb_82.Location = new System.Drawing.Point(281, 564);
+            this.tb_82.MaxLength = 1;
             this.tb_82.Name = "tb_82";
             this.tb_82.Size = new System.Drawing.Size(39, 35);
             this.tb_82.TabIndex = 62;
@@ -917,7 +992,8 @@
             // tb_81
             // 
             this.tb_81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_81.Location = new System.Drawing.Point(158, 379);
+            this.tb_81.Location = new System.Drawing.Point(236, 564);
+            this.tb_81.MaxLength = 1;
             this.tb_81.Name = "tb_81";
             this.tb_81.Size = new System.Drawing.Size(39, 35);
             this.tb_81.TabIndex = 61;
@@ -928,7 +1004,8 @@
             // tb_80
             // 
             this.tb_80.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_80.Location = new System.Drawing.Point(113, 379);
+            this.tb_80.Location = new System.Drawing.Point(191, 564);
+            this.tb_80.MaxLength = 1;
             this.tb_80.Name = "tb_80";
             this.tb_80.Size = new System.Drawing.Size(39, 35);
             this.tb_80.TabIndex = 60;
@@ -939,7 +1016,8 @@
             // tb_72
             // 
             this.tb_72.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_72.Location = new System.Drawing.Point(203, 347);
+            this.tb_72.Location = new System.Drawing.Point(281, 532);
+            this.tb_72.MaxLength = 1;
             this.tb_72.Name = "tb_72";
             this.tb_72.Size = new System.Drawing.Size(39, 35);
             this.tb_72.TabIndex = 59;
@@ -950,7 +1028,8 @@
             // tb_71
             // 
             this.tb_71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_71.Location = new System.Drawing.Point(158, 347);
+            this.tb_71.Location = new System.Drawing.Point(236, 532);
+            this.tb_71.MaxLength = 1;
             this.tb_71.Name = "tb_71";
             this.tb_71.Size = new System.Drawing.Size(39, 35);
             this.tb_71.TabIndex = 58;
@@ -961,7 +1040,8 @@
             // tb_70
             // 
             this.tb_70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_70.Location = new System.Drawing.Point(113, 347);
+            this.tb_70.Location = new System.Drawing.Point(191, 532);
+            this.tb_70.MaxLength = 1;
             this.tb_70.Name = "tb_70";
             this.tb_70.Size = new System.Drawing.Size(39, 35);
             this.tb_70.TabIndex = 57;
@@ -972,7 +1052,8 @@
             // tb_62
             // 
             this.tb_62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_62.Location = new System.Drawing.Point(203, 315);
+            this.tb_62.Location = new System.Drawing.Point(281, 500);
+            this.tb_62.MaxLength = 1;
             this.tb_62.Name = "tb_62";
             this.tb_62.Size = new System.Drawing.Size(39, 35);
             this.tb_62.TabIndex = 56;
@@ -983,7 +1064,8 @@
             // tb_61
             // 
             this.tb_61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_61.Location = new System.Drawing.Point(158, 315);
+            this.tb_61.Location = new System.Drawing.Point(236, 500);
+            this.tb_61.MaxLength = 1;
             this.tb_61.Name = "tb_61";
             this.tb_61.Size = new System.Drawing.Size(39, 35);
             this.tb_61.TabIndex = 55;
@@ -994,7 +1076,8 @@
             // tb_60
             // 
             this.tb_60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_60.Location = new System.Drawing.Point(113, 315);
+            this.tb_60.Location = new System.Drawing.Point(191, 500);
+            this.tb_60.MaxLength = 1;
             this.tb_60.Name = "tb_60";
             this.tb_60.Size = new System.Drawing.Size(39, 35);
             this.tb_60.TabIndex = 54;
@@ -1002,11 +1085,35 @@
             this.tb_60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_60.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
+            // bNewGame
+            // 
+            this.bNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bNewGame.Location = new System.Drawing.Point(191, 96);
+            this.bNewGame.Name = "bNewGame";
+            this.bNewGame.Size = new System.Drawing.Size(129, 40);
+            this.bNewGame.TabIndex = 81;
+            this.bNewGame.Text = "New Game";
+            this.bNewGame.UseVisualStyleBackColor = true;
+            this.bNewGame.Click += new System.EventHandler(this.Click_NewGame);
+            // 
+            // bSolution
+            // 
+            this.bSolution.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.bSolution.Location = new System.Drawing.Point(488, 96);
+            this.bSolution.Name = "bSolution";
+            this.bSolution.Size = new System.Drawing.Size(129, 40);
+            this.bSolution.TabIndex = 82;
+            this.bSolution.Text = "Solution";
+            this.bSolution.UseVisualStyleBackColor = true;
+            this.bSolution.Click += new System.EventHandler(this.Click_Solution);
+            // 
             // SuDoKu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 517);
+            this.ClientSize = new System.Drawing.Size(821, 710);
+            this.Controls.Add(this.bSolution);
+            this.Controls.Add(this.bNewGame);
             this.Controls.Add(this.tb_88);
             this.Controls.Add(this.tb_87);
             this.Controls.Add(this.tb_86);
@@ -1181,6 +1288,8 @@
         private System.Windows.Forms.TextBox tb_62;
         private System.Windows.Forms.TextBox tb_61;
         private System.Windows.Forms.TextBox tb_60;
+        private System.Windows.Forms.Button bNewGame;
+        private System.Windows.Forms.Button bSolution;
     }
 }
 

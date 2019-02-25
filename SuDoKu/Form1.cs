@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,12 +15,23 @@ namespace SuDoKu
     public partial class SuDoKu : Form
     {
         TextBox[,] Board = new TextBox[9, 9];
+        String[] slines;
+        String[] unlines;
+
+        string[,,] puzzle;
+        string[,,] unsolvedpuzzle;
+        Random rnd = new Random();
+        int randompuzzle;
+        bool IsPopulatingTheGame = false;
 
         public SuDoKu()
         {
+           // Globals.AllocConsole();
             InitializeComponent();
             MapTextBoxToBoardReferences();
-            DisplaySolvedPuzzle();
+            PopulatePuzzle();
+
+
         }
 
         #region Board array initialization
@@ -109,60 +121,85 @@ namespace SuDoKu
         }
         #endregion
 
-        private void DisplaySolvedPuzzle()
+        public void PopulatePuzzle()
         {
-            String[] lines = File.ReadAllLines(Globals.path);
-            
 
-            string[,,] puzzle = new string[lines.Length, 9, 9];
-            for( int k = 0; k < lines.Length; k++)
+            slines = File.ReadAllLines(Globals.path);
+            unlines = File.ReadAllLines(Globals.upath);
+
+            puzzle = new string[slines.Length, 9, 9];
+            unsolvedpuzzle = new string[slines.Length, 9, 9];
+
+
+
+            for (int k = 0; k < slines.Length; k++)    //copying all lines from solved file to puzzle matrix
             {
                 int l = 0;
-                for(int i = 0; i < 9; i++)
+                for (int i = 0; i < 9; i++)
                 {
-                    for( int j = 0; j < 9; j++)
+                    for (int j = 0; j < 9; j++)
                     {
-                        puzzle[k, i, j] = lines[k][l++].ToString();
+                        puzzle[k, i, j] = slines[k][l++].ToString();
                     }
                 }
             }
 
-            for( int i = 0; i < 9; i++)
+            for (int k = 0; k < unlines.Length; k++)      //copying all lines from unsolved file to unsolvedpuzzle matrix
             {
-                for(int j = 0; j < 9; j++)
+                int l = 0;
+                for (int i = 0; i < 9; i++)
                 {
-                    Board[i,j].Text = puzzle[0,i, j];
+                    for (int j = 0; j < 9; j++)
+                    {
+                        unsolvedpuzzle[k, i, j] = unlines[k][l++].ToString();
+                    }
                 }
             }
-        } 
+
+        }
         private void Text_Changed(object sender, EventArgs e)
         {
-            TextBox CurrentTb = (TextBox)sender;
-            int x;
-            int y;
-            GetCordinates(CurrentTb, out x, out y);
+            if (!IsPopulatingTheGame) {
+                TextBox CurrentTb = (TextBox)sender;
+                int x;
+                int y;
 
-            if ( CheckRow(CurrentTb, x, y) || CheckColumn(CurrentTb,x, y))
-            {
-                CurrentTb.Text = "";
-                return;
+                UnFlashTextBoxes();
+                GetCordinates(CurrentTb, out x, out y);
+
+                bool FoundInRow = CheckRow(CurrentTb, x, y);
+                bool FoundInCol = CheckColumn(CurrentTb, x, y);
+                bool FoundInBlock = CheckBlock(CurrentTb, x, y);
+
+                if (FoundInRow || FoundInCol || FoundInBlock)
+                {
+                    CurrentTb.TextChanged -= Text_Changed;
+                    CurrentTb.Text = "";
+                    CurrentTb.TextChanged += Text_Changed;
+                    return;
+                }
+
+                if (IsGameComplete())
+                    MessageBox.Show("GameComplete!!");
             }
+        }
 
-            if(CheckBlock(CurrentTb, x, y))
+        private void UnFlashTextBoxes()
+        {
+            for (int i = 0; i < 9; i++)
             {
-                CurrentTb.Text = "";
-                return;
+                for (int  j = 0; j < 9; j++)
+                {
+                    Board[i, j].ForeColor = Color.Black;
+                }
             }
-
-            if (IsGameComplete())
-                MessageBox.Show("GameComplete!!");
         }
 
         private bool IsGameComplete()
         {
-            for( int i = 0; i < 9; i++)
+            for (int i = 0; i < 9; i++)
             {
-                for(int j = 0; j < 9; j++)
+                for (int j = 0; j < 9; j++)
                 {
                     if (Board[i, j].Text == "")
                         return false;
@@ -174,19 +211,22 @@ namespace SuDoKu
         private bool CheckBlock(TextBox tb, int x, int y)
         {
             int bx = x / 3;         //block's x and y cordinate, gives you which block the current cordinates belong to
-            int by = y / 3;         
+            int by = y / 3;
 
             int ibx = bx * 3;       //starting position of that particular block
             int iby = by * 3;
 
-            for( int i = ibx; i < ibx + 3; i ++)  //checking the number availability in that whole block
+            for (int i = ibx; i < ibx + 3; i++)  //checking the number availability in that whole block
             {
-                for( int j = iby; j < iby + 3; j++)
+                for (int j = iby; j < iby + 3; j++)
                 {
                     if (i == x && j == y)
                         continue;               //skips 1 iteration
                     if (Board[i, j].Text == tb.Text)
+                    {
+                        FlashTextBox(Board[i, j]);
                         return true;
+                    }
                 }
             }
             return false;
@@ -199,7 +239,11 @@ namespace SuDoKu
                 if (i == x)
                     continue;
                 if ((Board[i, y].Text == tb.Text))
+                {
+                    FlashTextBox(Board[i, y]);
                     return true;
+                }
+                
             }
             return false;
         }
@@ -211,17 +255,61 @@ namespace SuDoKu
                 if (j == y)
                     continue;
                 if ((Board[x, j].Text == tb.Text))
+                {
+                    FlashTextBox(Board[x, j]);
                     return true;
+
+                }
             }
             return false;
+        }
+
+        private void FlashTextBox(TextBox textBox)
+        {
+            textBox.ForeColor = Color.Red;
         }
 
         private void GetCordinates(TextBox tb, out int x, out int y)
         {
             String position = tb.Tag.ToString();
-            x = position[0]-'0';
-            y = position[1]-'0';
+            x = position[0] - '0';
+            y = position[1] - '0';
 
+        }
+
+        private void Click_NewGame(object sender, EventArgs e)
+        {
+            IsPopulatingTheGame = true;
+
+            randompuzzle = rnd.Next(0, slines.Length);
+
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    if(unsolvedpuzzle[randompuzzle, i, j] == "*")
+                    {
+                        Board[i, j].Text = "";
+                    }
+                    else
+                        Board[i, j].Text = unsolvedpuzzle[randompuzzle, i, j];
+                }
+            }
+            IsPopulatingTheGame = false;
+        }
+
+        private void Click_Solution(object sender, EventArgs e)
+        {
+            IsPopulatingTheGame = true;
+
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    Board[i, j].Text = puzzle[randompuzzle, i, j];
+                }
+            }
+            IsPopulatingTheGame = false;
         }
     }
 }
