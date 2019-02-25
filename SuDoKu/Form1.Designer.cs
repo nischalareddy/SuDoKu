@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SuDoKu));
             this.tb_00 = new System.Windows.Forms.TextBox();
             this.tb_01 = new System.Windows.Forms.TextBox();
             this.tb_02 = new System.Windows.Forms.TextBox();
@@ -1196,6 +1197,7 @@
             this.Controls.Add(this.tb_01);
             this.Controls.Add(this.tb_00);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SuDoKu";
